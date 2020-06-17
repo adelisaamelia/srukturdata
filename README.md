@@ -1,0 +1,2 @@
+# srukturdata
+laporan praktikum6
