@@ -1,0 +1,23 @@
+package demostack_push;
+
+import java.util.*;
+
+ public class DemoStack_push{
+
+     public static void main(String []args){
+        Stack <String> STACK = new Stack <String> ();
+        
+        STACK.push ("Minggu");
+        STACK.push ("Senin");
+        STACK.push ("Selasa");
+        STACK.push ("Rabu");
+        STACK.push ("Kamis");
+        
+        System.out.println("Stack Awal : " + STACK);
+        
+         STACK.push ("Jumat");
+         STACK.push ("Sabtu");
+         
+         System.out.println("Update Stack : " + STACK);
+     }
+}
