@@ -1,0 +1,23 @@
+package demostack_popstring;
+
+import java.util.*;
+
+ public class DemoStack_popString{
+
+     public static void main(String []args){
+        Stack <String> STACK = new Stack <String> ();
+        
+        STACK.push ("Minggu");
+        STACK.push ("Senin");
+        STACK.push ("Selasa");
+        STACK.push ("Rabu");
+        STACK.push ("Kamis");
+        
+        System.out.println("Stack Awal : " + STACK);
+        
+         System.out.println("Pop Element : " + STACK.pop());
+         System.out.println("Pop Element : " + STACK.pop());
+         
+         System.out.println("Update Stack : " + STACK);
+     }
+}
